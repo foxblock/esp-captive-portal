@@ -7,6 +7,7 @@ class AsyncWebServer;
 
 // Configure and start an AP with a captive portal active.
 // The captive portal redirects to the passed URL on the passed server.
+// The URL can be anything you have set-up in a server.on(...) call.
 // ssid is mandatory and max 63 chars
 // password is 8 chars MINIMUM or pass nullptr for open AP
 // Only one portal can be active at any given time!

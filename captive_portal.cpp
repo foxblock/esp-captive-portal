@@ -6,13 +6,6 @@
 //
 // - IP-config seems to be necessary for all Samsung phones (since they use hard-coded
 //   DNS for connectivitycheck.gstatic.com)
-//
-// Tested Working:
-// - Sony Xperia ZX2 (Android 10)
-// - Huawai (2020ish model)
-// - iPad (2020ish model)
-// - iPhone (2020ish model)
-// - Samsung S7 (Android 8)
 
 #include "captive_portal.h"
 
