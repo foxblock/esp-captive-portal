@@ -1,0 +1,24 @@
+{
+  "name": "ESP Captive Portal",
+  "version": "1.0.0",
+  "description": "Create a captive portal using the ESP's WiFi Access Point (AP) and ESPAsyncWebServer for the redirect and serving the captive portal website.",
+  "keywords": "captive, portal, webserver, ESP, http, async",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/foxblock/esp-captive-portal.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Janek Schäfer",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "ottowinter/ESPAsyncWebServer-esphome": "^3.0.0"
+  },
+  "frameworks": "arduino",
+  "platforms": ["espressif8266", "espressif32"]
+}

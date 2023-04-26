@@ -8,8 +8,13 @@
 //   DNS for connectivitycheck.gstatic.com)
 
 #include "captive_portal.h"
-
+#ifdef ESP32
 #include <WiFi.h>
+#elif defined(ESP8266)
+#include <ESP8266WiFi.h>
+#else
+#error "Captive portal library needs ESP32 or ESP8266 platform"
+#endif
 #include <DNSServer.h>
 #include <freertos/FreeRTOS.h>
 #include <ESPAsyncWebServer.h>
