@@ -1,6 +1,6 @@
 {
   "name": "ESP-CaptivePortal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create a captive portal on the ESP that works with all devices.",
   "keywords": "captive, portal, webserver, ESP, http, async",
   "repository":
